@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
-
-
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import matplotlib.pyplot as plt
@@ -36,10 +33,3 @@ for i in details:
 graph=plt.pie(counter.values())
 plt.legend(counter.keys(),bbox_to_anchor=(1,1,0,0))
 plt.show()
-
-
-# In[ ]:
-
-
-
-
